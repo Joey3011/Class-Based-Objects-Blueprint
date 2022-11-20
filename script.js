@@ -23,8 +23,8 @@ class Abrakadabra{
             console.log(`${targetInfo.varName}'s weight in lbs is ${targetInfo.lbs.toFixed(2)}`)  
             return targetInfo
         }else{
+            output.innerHTML = ""
             alert("Inputs are required and lbs should be number... THANK YOU!")
-            lbs.value = ""
             return new Error("Inputs are required and lbs should be number... THANK YOU!")
         }
     }
