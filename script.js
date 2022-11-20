@@ -42,5 +42,10 @@ submit.addEventListener('click', () => {
     console.log(ayiee.checkWeight(ayiee))  
 })
 
-
+lbs.addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      submit.click();
+    }
+  });
 
