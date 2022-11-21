@@ -24,8 +24,8 @@ class Abrakadabra{
             return targetInfo
         }else{
             output.innerHTML = ""
-            alert("Inputs are required and lbs should be number... THANK YOU!")
-            return new Error("Inputs are required and lbs should be number... THANK YOU!")
+            alert("Inputs are required and lbs should be number...")
+            return new Error("Inputs are required and lbs should be number...")
         }
     }
 }
